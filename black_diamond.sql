@@ -23,7 +23,7 @@ SELECT * FROM customer WHERE state IN ('CA', 'WA', 'UT', 'FL', 'AZ');
 INSERT INTO artist (
   name
 ) VALUES (
-	'New Artist'
+  'New Artist'
 )
 
 returning *;
@@ -34,7 +34,7 @@ INSERT INTO customer (
   last_name,
   email
 ) VALUES (
-	'Adam',
+  'Adam',
   'Pala',
   'ap@dev.mtn'
 )
